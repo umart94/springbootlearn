@@ -1,0 +1,10 @@
+As said in docs either set server.port as system property using command line option to jvm -Dserver.port=8090 or add application.properties in /src/main/resources/ with
+
+server.port=8090
+For a random port use:
+
+server.port=0
+Similarly add application.yml in /src/main/resources/ with:
+
+server:
+  port: 8090
